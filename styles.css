@@ -9,7 +9,7 @@ body {
 #logo {
     position: fixed;
     top: 0px;
-    background-image: url("img/hofulogo.png");
+    background-image: url("hofulogo.png");
     background-size: cover;
     left: 734px;
     width: 451.23px;
@@ -33,7 +33,7 @@ body {
 #dance1 {
     position: fixed;
     top: 0px;
-    background-image: url("img/dance.gif");
+    background-image: url("dance.gif");
     background-size: cover;
     left: 434px;
     width: 300px;
@@ -44,7 +44,7 @@ body {
 #dance2 {
     position: fixed;
     top: 0px;
-    background-image: url("img/dance.gif");
+    background-image: url("dance.gif");
     background-size: cover;
     right: 435px;
     width: 300px;
@@ -55,7 +55,7 @@ body {
 #shief-img {
     position: fixed;
     top: 12px;
-    background-image: url("img/shieflogo.png");
+    background-image: url("shieflogo.png");
     background-size: cover;
     left: 57.08px;
     width: 160.833px;
@@ -78,7 +78,7 @@ body {
 }
 
 #happy-img {
-    background-image: url("img/firework.png");
+    background-image: url("firework.png");
     background-size: cover;
     top: 364px;
     left: 41px;
