@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rubik';
+    background-color: #EEB783;
+}
+
+#logo {
+    position: fixed;
+    top: 0px;
+    background-image: url("img/hofulogo.png");
+    background-size: cover;
+    left: 734px;
+    width: 451.23px;
+    height: 341px;
+    flex-shrink: 0;
+    z-index: 999;
+}
+
+#logo-back {
+    position: absolute;
+    top: 0px;
+    background-color: #4E3430;
+    left: 734px;
+    width: 451px;
+    height: 341px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 70px 70px;
+    z-index: 998;
+}
+
+#dance1 {
+    position: fixed;
+    top: 0px;
+    background-image: url("img/dance.gif");
+    background-size: cover;
+    left: 434px;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+#dance2 {
+    position: fixed;
+    top: 0px;
+    background-image: url("img/dance.gif");
+    background-size: cover;
+    right: 435px;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+#shief-img {
+    position: fixed;
+    top: 12px;
+    background-image: url("img/shieflogo.png");
+    background-size: cover;
+    left: 57.08px;
+    width: 160.833px;
+    height: 160.833px;
+    flex-shrink: 0;
+}
+
+#shief-happy {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    left: 52px;
+    top: 180px;
+    position: absolute;
+    border-radius: 5px;
+    background: #4E3430;
+}
+
+#happy-img {
+    background-image: url("img/firework.png");
+    background-size: cover;
+    top: 364px;
+    left: 41px;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+#happy .head {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    left: 41px;
+    top: 400px;
+}
+
+#happy .desc {
+    width: 1086px;
+    color: #B9795D;
+    font-family: Rubik;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    left: 44px;
+    top: 500px;
+}
+
+.dev {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    left: 11px;
+    top: 870px;
+}
